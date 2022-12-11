@@ -1,9 +1,19 @@
+package mini_projeto;
 
 public class Lista {
+	
+	private String nome;
 
-	public Lista() {
-		// TODO Auto-generated constructor stub
-		// aline eu te amo
+	public String getNome() {
+		return nome;
 	}
 
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+
+
 }
+
+
