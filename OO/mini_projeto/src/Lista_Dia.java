@@ -1,9 +1,29 @@
+package mini_projeto;
 
-public class Lista_Dia {
+public class Lista_Dia extends Lista{
+		private String nome;
 
-	public Lista_Dia() {
-		// TODO Auto-generated constructor stub
-		//morte e dor
+		public String getNome() {
+			return nome;
+		}
+
+		public void setNome(String nome) {
+			this.nome = nome;
+		}
+
+		public String getDescricao() {
+			return descricao;
+		}
+
+		public void setDescricao(String descricao) {
+			this.descricao = descricao;
+		}
+
+		private String descricao;
+
+		
+		
 	}
+	
 
-}
+

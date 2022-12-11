@@ -1,7 +1,5 @@
 package mini_projeto;
-
-public class Lista {
-
+public class Tarefa {
 	private String nome;
 
 	public String getNome() {
@@ -21,6 +19,5 @@ public class Lista {
 	}
 
 	private String descricao;
-
-
 }
+
