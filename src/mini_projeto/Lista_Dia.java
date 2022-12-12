@@ -1,6 +1,12 @@
 package mini_projeto;
 
 public class Lista_Dia extends Lista{
+	
+		public Lista_Dia(Tarefa[] tarefa) {
+		super(tarefa);
+	}
+		void Pessoa () {
+	    }
 		private String nome;
 
 		public String getNome() {
@@ -10,6 +16,8 @@ public class Lista_Dia extends Lista{
 		public void setNome(String nome) {
 			this.nome = nome;
 		}
+		
+		
 
 		public String getDescricao() {
 			return descricao;

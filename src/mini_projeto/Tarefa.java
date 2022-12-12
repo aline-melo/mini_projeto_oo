@@ -1,5 +1,13 @@
 package mini_projeto;
 public class Tarefa {
+	
+
+	
+		
+		
+		public Tarefa (Etapa [] etapa) {}
+		public Tarefa (Pessoa [] pessoa) {}
+		
 	private String nome;
 
 	public String getNome() {
@@ -19,5 +27,8 @@ public class Tarefa {
 	}
 
 	private String descricao;
+	
+	
 }
+
 

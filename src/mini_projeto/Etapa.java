@@ -2,14 +2,7 @@ package mini_projeto;
 
 
 
-public class Lista {
-	
-	
-	public Lista (Tarefa []tarefa) {
-	}
-	
-	
-		
+public class Etapa {
 	private String nome;
 
 	public String getNome() {
@@ -19,7 +12,6 @@ public class Lista {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-
 	public String getDescricao() {
 		return descricao;
 	}
@@ -27,13 +19,6 @@ public class Lista {
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
-
 	private String descricao;
 	
 }
-	
-	
-
-	
-
-
