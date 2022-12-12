@@ -1,6 +1,14 @@
 package mini_projeto;
 
 public class Lista {
+	
+	private Tarefa tarefa;
+	
+	public Lista (Tarefa tarefa) {
+		this.tarefa = tarefa;
+	}
+	
+	
 
 	private String nome;
 
